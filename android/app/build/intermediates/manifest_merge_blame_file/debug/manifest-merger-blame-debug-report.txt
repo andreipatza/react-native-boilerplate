@@ -1,0 +1,116 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.reactnativeboilerplate"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/andreipata/Documents/WORK/FE_NATIVE/react-native-boilerplate/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/andreipata/Documents/WORK/FE_NATIVE/react-native-boilerplate/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/andreipata/Documents/WORK/FE_NATIVE/react-native-boilerplate/android/app/src/main/AndroidManifest.xml:3:3-65
+12-->/Users/andreipata/Documents/WORK/FE_NATIVE/react-native-boilerplate/android/app/src/main/AndroidManifest.xml:3:20-62
+13    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+13-->[com.facebook.flipper:flipper:0.125.0] /Users/andreipata/.gradle/caches/transforms-3/95e931fbbfdb29d8fe263063f71e1fc3/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+13-->[com.facebook.flipper:flipper:0.125.0] /Users/andreipata/.gradle/caches/transforms-3/95e931fbbfdb29d8fe263063f71e1fc3/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+14    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+14-->[com.google.android.gms:play-services-iid:17.0.0] /Users/andreipata/.gradle/caches/transforms-3/81eb667dfe12e1291b5ad7fc6ac87e50/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+14-->[com.google.android.gms:play-services-iid:17.0.0] /Users/andreipata/.gradle/caches/transforms-3/81eb667dfe12e1291b5ad7fc6ac87e50/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:22-79
+15    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+15-->[com.android.installreferrer:installreferrer:1.1.2] /Users/andreipata/.gradle/caches/transforms-3/46e93071e93b8af1d8529d0e053be774/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+15-->[com.android.installreferrer:installreferrer:1.1.2] /Users/andreipata/.gradle/caches/transforms-3/46e93071e93b8af1d8529d0e053be774/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:22-107
+16
+17    <application
+17-->/Users/andreipata/Documents/WORK/FE_NATIVE/react-native-boilerplate/android/app/src/main/AndroidManifest.xml:50:3-57:17
+18        android:name="com.reactnativeboilerplate.MainApplication"
+18-->/Users/andreipata/Documents/WORK/FE_NATIVE/react-native-boilerplate/android/app/src/main/AndroidManifest.xml:50:16-47
+19        android:allowBackup="false"
+19-->/Users/andreipata/Documents/WORK/FE_NATIVE/react-native-boilerplate/android/app/src/main/AndroidManifest.xml:50:162-189
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.7.0] /Users/andreipata/.gradle/caches/transforms-3/b5a8e99dac667ebea08e9f9757d3b404/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->/Users/andreipata/Documents/WORK/FE_NATIVE/react-native-boilerplate/android/app/src/main/AndroidManifest.xml:50:81-115
+23        android:label="@string/app_name"
+23-->/Users/andreipata/Documents/WORK/FE_NATIVE/react-native-boilerplate/android/app/src/main/AndroidManifest.xml:50:48-80
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->/Users/andreipata/Documents/WORK/FE_NATIVE/react-native-boilerplate/android/app/src/main/AndroidManifest.xml:50:116-161
+25        android:theme="@style/AppTheme"
+25-->/Users/andreipata/Documents/WORK/FE_NATIVE/react-native-boilerplate/android/app/src/main/AndroidManifest.xml:50:190-221
+26        android:usesCleartextTraffic="true" >
+26-->/Users/andreipata/Documents/WORK/FE_NATIVE/react-native-boilerplate/android/app/src/debug/AndroidManifest.xml:8:9-44
+27        <activity
+27-->/Users/andreipata/Documents/WORK/FE_NATIVE/react-native-boilerplate/android/app/src/debug/AndroidManifest.xml:11:9-111
+28            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+28-->/Users/andreipata/Documents/WORK/FE_NATIVE/react-native-boilerplate/android/app/src/debug/AndroidManifest.xml:11:19-83
+29            android:exported="false" />
+29-->/Users/andreipata/Documents/WORK/FE_NATIVE/react-native-boilerplate/android/app/src/debug/AndroidManifest.xml:11:84-108
+30        <activity
+30-->/Users/andreipata/Documents/WORK/FE_NATIVE/react-native-boilerplate/android/app/src/main/AndroidManifest.xml:51:5-56:16
+31            android:name="com.reactnativeboilerplate.MainActivity"
+31-->/Users/andreipata/Documents/WORK/FE_NATIVE/react-native-boilerplate/android/app/src/main/AndroidManifest.xml:51:15-43
+32            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+32-->/Users/andreipata/Documents/WORK/FE_NATIVE/react-native-boilerplate/android/app/src/main/AndroidManifest.xml:51:77-186
+33            android:exported="true"
+33-->/Users/andreipata/Documents/WORK/FE_NATIVE/react-native-boilerplate/android/app/src/main/AndroidManifest.xml:51:262-285
+34            android:label="@string/app_name"
+34-->/Users/andreipata/Documents/WORK/FE_NATIVE/react-native-boilerplate/android/app/src/main/AndroidManifest.xml:51:44-76
+35            android:launchMode="singleTask"
+35-->/Users/andreipata/Documents/WORK/FE_NATIVE/react-native-boilerplate/android/app/src/main/AndroidManifest.xml:51:187-218
+36            android:windowSoftInputMode="adjustResize" >
+36-->/Users/andreipata/Documents/WORK/FE_NATIVE/react-native-boilerplate/android/app/src/main/AndroidManifest.xml:51:219-261
+37            <intent-filter>
+37-->/Users/andreipata/Documents/WORK/FE_NATIVE/react-native-boilerplate/android/app/src/main/AndroidManifest.xml:52:7-55:23
+38                <action android:name="android.intent.action.MAIN" />
+38-->/Users/andreipata/Documents/WORK/FE_NATIVE/react-native-boilerplate/android/app/src/main/AndroidManifest.xml:53:9-61
+38-->/Users/andreipata/Documents/WORK/FE_NATIVE/react-native-boilerplate/android/app/src/main/AndroidManifest.xml:53:17-58
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/Users/andreipata/Documents/WORK/FE_NATIVE/react-native-boilerplate/android/app/src/main/AndroidManifest.xml:54:9-69
+40-->/Users/andreipata/Documents/WORK/FE_NATIVE/react-native-boilerplate/android/app/src/main/AndroidManifest.xml:54:19-66
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->[com.google.android.gms:play-services-base:17.0.0] /Users/andreipata/.gradle/caches/transforms-3/5127da6d78977fe3b618caff7dae64d9/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+44            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+44-->[com.google.android.gms:play-services-base:17.0.0] /Users/andreipata/.gradle/caches/transforms-3/5127da6d78977fe3b618caff7dae64d9/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+45            android:exported="false"
+45-->[com.google.android.gms:play-services-base:17.0.0] /Users/andreipata/.gradle/caches/transforms-3/5127da6d78977fe3b618caff7dae64d9/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+46            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+46-->[com.google.android.gms:play-services-base:17.0.0] /Users/andreipata/.gradle/caches/transforms-3/5127da6d78977fe3b618caff7dae64d9/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+47
+48        <meta-data
+48-->[com.google.android.gms:play-services-basement:17.0.0] /Users/andreipata/.gradle/caches/transforms-3/35e470a310941286b31b9d94129f3776/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+49            android:name="com.google.android.gms.version"
+49-->[com.google.android.gms:play-services-basement:17.0.0] /Users/andreipata/.gradle/caches/transforms-3/35e470a310941286b31b9d94129f3776/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+50            android:value="@integer/google_play_services_version" />
+50-->[com.google.android.gms:play-services-basement:17.0.0] /Users/andreipata/.gradle/caches/transforms-3/35e470a310941286b31b9d94129f3776/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+51
+52        <provider
+52-->[androidx.emoji2:emoji2:1.0.0] /Users/andreipata/.gradle/caches/transforms-3/31798a0ea3f25ea98e44c876b4851b08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+53            android:name="androidx.startup.InitializationProvider"
+53-->[androidx.emoji2:emoji2:1.0.0] /Users/andreipata/.gradle/caches/transforms-3/31798a0ea3f25ea98e44c876b4851b08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+54            android:authorities="com.reactnativeboilerplate.androidx-startup"
+54-->[androidx.emoji2:emoji2:1.0.0] /Users/andreipata/.gradle/caches/transforms-3/31798a0ea3f25ea98e44c876b4851b08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+55            android:exported="false" >
+55-->[androidx.emoji2:emoji2:1.0.0] /Users/andreipata/.gradle/caches/transforms-3/31798a0ea3f25ea98e44c876b4851b08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+56            <meta-data
+56-->[androidx.emoji2:emoji2:1.0.0] /Users/andreipata/.gradle/caches/transforms-3/31798a0ea3f25ea98e44c876b4851b08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+57                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+57-->[androidx.emoji2:emoji2:1.0.0] /Users/andreipata/.gradle/caches/transforms-3/31798a0ea3f25ea98e44c876b4851b08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+58                android:value="androidx.startup" />
+58-->[androidx.emoji2:emoji2:1.0.0] /Users/andreipata/.gradle/caches/transforms-3/31798a0ea3f25ea98e44c876b4851b08/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+59            <meta-data
+59-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/andreipata/.gradle/caches/transforms-3/39517e1b011367242185b54afc0b3c9e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+60                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+60-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/andreipata/.gradle/caches/transforms-3/39517e1b011367242185b54afc0b3c9e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+61                android:value="androidx.startup" />
+61-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/andreipata/.gradle/caches/transforms-3/39517e1b011367242185b54afc0b3c9e/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+62        </provider>
+63    </application>
+64
+65</manifest>
